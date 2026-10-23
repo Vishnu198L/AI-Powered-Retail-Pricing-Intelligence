@@ -1,0 +1,22 @@
+
+#
+# Trained machine-learning models
+models/*.pkl
+models/*.pickle
+models/*.joblib
+
+# MLflow model artifacts
+mlartifacts/
+
+# MLflow tracking data
+mlruns/
+
+# Python environments
+venv/
+.venv/
+__pycache__/
+
+# Environment variables
+.env
+.env.*
+!.env.example
